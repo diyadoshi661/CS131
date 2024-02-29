@@ -1,0 +1,44 @@
+ 1)mkdir Assignment1
+
+2)echo $SHELL- /bin/bash
+
+2) echo $HOME: /mnt/scratch/FA23_CS131_Ashish/diyasp24
+
+3)uid=1168(diyasp24) gid=1168(diyasp24) groups=1168(diyasp24),77(S77) - command used is id
+
+4)mkdir myDir  - I can cd, ls, ls-l it, however cannot create files under it.-
+ ls -l
+total 0
+[diyasp24@sjsu myDir]$ touch first.txt
+touch: cannot touch 'first.txt': Permission denied
+
+5)mkdir myDir2, mkdir myDir3
+
+6) touch myFile.txt, mv myFile.txt myDir3
+
+6) command used is free, total memory is 73080640 bytes = 69.7 MiB
+              total        used        free      shared  buff/cache   available
+Mem:       73080640    33805312    19529216     3617280    19746112    34164864
+Swap:       4218816           0     4218816
+
+9)verion is 8.6(Ootpa)
+NAME="Red Hat Enterprise Linux"
+VERSION="8.6 (Ootpa)"
+ID="rhel"
+ID_LIKE="fedora"
+VERSION_ID="8.6"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="Red Hat Enterprise Linux 8.6 (Ootpa)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:redhat:enterprise_linux:8::baseos"
+HOME_URL="https://www.redhat.com/"
+DOCUMENTATION_URL="https://access.redhat.com/documentation/red_hat_enterprise_linux/8/"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+
+REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"
+REDHAT_BUGZILLA_PRODUCT_VERSION=8.6
+REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="8.6"
+
+10)lrwxrwxrwx. 1 root root 22 Apr  6  2022 /etc/os-release -> ..//usr/lib/os-release
+all users have read write execute permissions
