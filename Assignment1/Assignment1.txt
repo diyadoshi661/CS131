@@ -5,6 +5,7 @@
 2) echo $HOME: /mnt/scratch/FA23_CS131_Ashish/diyasp24
 
 3)uid=1168(diyasp24) gid=1168(diyasp24) groups=1168(diyasp24),77(S77) - command used is id
+uid is 1168 and I belong in group 1168 and 77
 
 4)mkdir myDir  - I can cd, ls, ls-l it, however cannot create files under it.-
  ls -l
@@ -14,14 +15,14 @@ touch: cannot touch 'first.txt': Permission denied
 
 5)mkdir myDir2, mkdir myDir3
 
-6) touch myFile.txt, mv myFile.txt myDir3
+6) touch myDir2/myFile.txt, mv myDir2/myFile.txt myDir3/
 
-6) command used is free, total memory is 73080640 bytes = 69.7 MiB
+6) command used is free -m, total memory is 71367 mebibytes
               total        used        free      shared  buff/cache   available
-Mem:       73080640    33805312    19529216     3617280    19746112    34164864
-Swap:       4218816           0     4218816
+Mem:          71367       33067       18982        3572       19317       33269
+Swap:          4119           0        4119
 
-9)verion is 8.6(Ootpa)
+9)verion is 8.6(Ootpa), /etc/os-release contains this infrmation
 NAME="Red Hat Enterprise Linux"
 VERSION="8.6 (Ootpa)"
 ID="rhel"
