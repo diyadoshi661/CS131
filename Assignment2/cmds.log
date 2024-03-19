@@ -1,0 +1,1165 @@
+    1  ls
+    2  mkdir newfolder
+    3  ls
+    4  rmdir newfolder/
+    5  ls
+    6  exit
+    7  passwd
+    8  mkdir CS131
+    9  man
+   10  1
+   11  LS
+   12  pwd
+   13  man ls
+   14  ls
+   15  wget www.github.com
+   16  history
+   17  cd CS131
+   18  pwd
+   19  cd ..
+   20  pwd
+   21  pwd
+   22  echo $SHELL
+   23  mkdir files
+   24  ls
+   25  % cd files
+   26  pwd
+   27  wget www.github.com
+   28  cd demo
+   29  getwd
+   30  ls -ltr
+   31  cat CS131
+   32  cd CS131
+   33  man more
+   34  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/spotify-2023.csv
+   35  ls -ltr
+   36  tail -15
+   37  ls
+   38  cat CS131
+   39  cd CS131
+   40  LS
+   41  ls
+   42  cd spotify-2023.csv
+   43  cat spotify-2023.csv
+   44  tail -spotify-2023.csv
+   45  tail - spotify-2023.csv
+   46  ls
+   47  CS131
+   48  cd CS131
+   49  cat spotify-2023.csv
+   50  tail -f
+   51  nano spotify-2023.csv
+   52  vi spotify-2023.csv
+   53  wget www.github.com
+   54  cd ~/Desktop
+   55  cd CS131
+   56  git init
+   57  touch newfile.txt
+   58  ls
+   59  's/newfile/Worksheet1'newfile.txt
+   60  touch Worksheet1.txt
+   61  ls
+   62  rm newfile.txt
+   63  ls
+   64  rm Worksheet1.txt
+   65  git status
+   66  git commit -m "This is my first commit!"
+   67  ls
+   68  cd CS131
+   69  ls
+   70  vi unsorted.txt
+   71  sort unsorted.txt
+   72  cat unsorted.txt
+   73  echo "Hello"
+   74  echo "Hello"> echofile.txt
+   75  cat echofile.txt
+   76  ?wc
+   77  wc unsorted.txt
+   78  wc -l unsorted.txt
+   79  wc -w unsorted.txt
+   80  ls
+   81  grep spotify-2023.csv
+   82  cd spotify-2023.csv
+   83  ls - spotify-2023.csv
+   84  cat spotify-2023.csv
+   85  ls
+   86  echo $HOME
+   87  PWD
+   88  pwd
+   89  echo $SHELL
+   90  grep "Taylor Swift" spotify-2023.csv >> taylor_drake_songs.csv
+   91  grep "Drake" spotify-2023.csv >> taylor_drake_songs.csv
+   92  wc -l taylor_drake_songs.csv
+   93  ls
+   94  echo "# CS131" >> README.md
+   95  git init
+   96  git add README.md
+   97  git commit -m "first commit"
+   98  git branch -M main
+   99  git remote add origin git@github.com:diyadoshi661/CS131.git
+  100  git push -u origin main
+  101  git status
+  102  git commit -m "first commit"
+  103  git config --global user.email "diyadoshi661@gmail.com"
+  104  git config --global user.name "diyadoshi661"
+  105  git commit -m "first commit"
+  106  git push -u origin main
+  107  git version
+  108  git user
+  109  clear
+  110  wget www.github.com
+  111  cd desktop
+  112  ls
+  113  git init
+  114  git status
+  115  git add .
+  116  git add
+  117  git add .
+  118  git commit -m "check"
+  119  git add index.html
+  120  git commit -m "check"
+  121  git remote add origin git@github.com:diyadoshi661/CS131.git
+  122  git branch -M main
+  123  git push -u origin main
+  124  cd ~/.ssh && ssh-keygen
+  125  git user.name
+  126  git config --global user.name "diyadoshi661"
+  127  git config --global user.email "diyadoshi661@gmail.com"
+  128  ssh-add ~/.ssh/id_rsa
+  129  eval $(ssh-agent -s)
+  130  ssh-add ~/.ssh/id_rsa
+  131  ssh -vT git@gitlab.com
+  132  cls
+  133  clear
+  134  git push -u origin main
+  135  git remote add origin git@github.com:diyadoshi661/CS131.git
+  136  git status
+  137  git pull
+  138  git origin
+  139  cls
+  140  clear
+  141  ls
+  142  cd ..
+  143  ls
+  144  cd CS131
+  145  ls
+  146  cd ..
+  147  clear
+  148  git config --get remote.origin.url
+  149  git add .
+  150  lsa
+  151  ls
+  152  cd CS131
+  153  ls
+  154  git init
+  155  git add README.md
+  156  git remote add origin https://github.com/diyadoshi661/CS131.git
+  157  git branch -M main
+  158  git push -u origin main
+  159  ls
+  160  git status
+  161  git add .
+  162  git commit -m "check"
+  163  git push -u origin main
+  164  cls
+  165  clear
+  166  history > cmds.log
+  167  cat cmds.log
+  168  vi cmds.log
+  169  clear
+  170  git add cmds.log
+  171  git commit -m "History"
+  172  git push
+  173  mkdir Worksheet1
+  174  clear
+  175  ls
+  176  mv cmds.log Worksheet1/
+  177  clear
+  178  git add .
+  179  git commit -m "Update"
+  180  git push
+  181  echo shell
+  182  echo $shell
+  183  echo $SHELL
+  184  python3
+  185  print("hello")
+  186  java
+  187  whereis java
+  188  ls -latr
+  189  man -latr
+  190  man ls - latr
+  191  cat .bashrc
+  192  cat .bashprofile
+  193  vi bashprofile
+  194  cat .bashrc
+  195  vi .bashrc
+  196  source .bashrc
+  197  echo "pwd"
+  198  echo $USER
+  199  /ROOT
+  200  /root
+  201  /etc/passwd
+  202  /etc/shadow
+  203  cat /etc/passwd
+  204  grep maysp24 /etc/passwd
+  205  cat /etc/shadow
+  206  cat /etc/group
+  207  cd demo
+  208  pwd
+  209  ls -ltr
+  210  sudo nano /etc/passwd
+  211  sudo diyasp24 command
+  212  pwd
+  213  su maysp24
+  214  cat /mnt/scratch/FA23_CS131_Ashish/ashish/a.txt
+  215  la
+  216  ls
+  217  ls -l
+  218  crontab
+  219  crontab -l
+  220  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  221  grep -i "United States" Global YouTube Statistics.csv
+  222  ls
+  223  cd 'Global YouTube Statistics.csv'
+  224  grep "United States" "Global YouTube Statistics.csv"
+  225  grep "Music" "Global YouTube Statistics.csv"
+  226  grep -c "Music" "Global YouTube Statistics.csv"
+  227  vi
+  228  vi "Global YouTube Statistics.csv"
+  229  grep "Music" "Global YouTube Statistics.csv" | wc
+  230  grep "Music" "Global YouTube Statistics.csv" | wc > counts.txt
+  231  vi counts.txt
+  232  history > cmds.log
+  233  ls
+  234  cd CS131
+  235  ls
+  236  mkdir Worksheet2
+  237  git add counts.txt cmds.log
+  238  git commit -m "Add counts.txt and cmds.log"
+  239  git push origin master
+  240  ls
+  241  LS
+  242  ls
+  243  vi counts.txt
+  244  cd CS131
+  245  mv counts.txt cmds.log Worksheet2/
+  246  cd counts.txt
+  247  cd ..
+  248  mv counts.txt cmds.log Worksheet2/
+  249  mv counts.txt cmds.log CS131/
+  250  ls
+  251  cd CS131
+  252  ls
+  253  mv counts.txt cmds.log Worksheet2/
+  254  ls
+  255  git add Worksheet2/counts.txt
+  256  git add Worksheet2/cmds.log
+  257  git commit -m "Add counts.txt and cmds.log for Worksheet2"
+  258  git push origin main
+  259  cd CS131
+  260  mkdir Assignment1
+  261  cd Assignment1
+  262  ls
+  263  cd .. 
+  264  ls
+  265  clear
+  266  cd Assignment1
+  267  echo $SHELL
+  268  history > cmds.log
+  269  ls
+  270  vi cmds.log
+  271  cd cmds.log
+  272  echo $HOME
+  273  id
+  274  mkdir myDir
+  275  cd myDir
+  276  ls -l
+  277  ls-1
+  278  cd ..
+  279  ls -l
+  280  chmod u-w myDir
+  281  ls -1
+  282  ls-l
+  283  ls -l
+  284  cd myDir
+  285  ls
+  286  ls -l
+  287  touch myfile.txt
+  288  cd..
+  289  cd ..
+  290  mkdir myDir2
+  291  mkdir myDir3
+  292  cd myDir2
+  293  touch myFile.txt
+  294  mv myFile.txt myDir3
+  295  man free
+  296  free
+  297  cat /etc/os-release
+  298  cmds.log < history
+  299  cd ..
+  300  history >> cmds.log
+  301  vi cmds.log
+  302  cd CS131
+  303  ls
+  304  cd Assignment1
+  305  ls
+  306  touch Assignment1.txt
+  307  vi Assignment1.txt
+  308  vi cmds.log
+  309  echo $SHELL
+  310  vi Assignment1.txt
+  311  echo $HOME
+  312  vi Assignment1.txt
+  313  id
+  314  vi Assignment1.txt
+  315  cd myDir
+  316  ls
+  317  ls -l
+  318  touch first.txt
+  319  vi Assignment1.txt
+  320  cd..
+  321  cd ..
+  322  vi Assignment1.txt
+  323  free
+  324  vi Assignment1.txt
+  325  cat /etc/os-release
+  326  vi Assignment1.txt
+  327  ls -l /etc/os-release
+  328  vi Assignment1.txt
+  329  history >> cmds.log
+  330  vi cmds.log
+  331  history
+  332  history >> cmds.log
+  333  cat cmds.log
+  334  vi cmds.log
+  335  history | grep "touch Assignment1.txt"
+  336  history | grep " ls -l /etc/os-release"
+  337  vi cmds.log
+  338  vi Assignment1.txt
+  339  git status
+  340  git add .
+  341  git commit -m "Assignment1 commit"
+  342  git push origin master
+  343  git branch
+  344  cd ..
+  345  git add Assignment1
+  346  git commit -m "assignment1"
+  347  git push origin main
+  348  git remote add origin git@github.com:diyadoshi661/CS131.git
+  349  git commit -m "Message"
+  350  git push --set-upstream origin master
+  351  cd ~/.ssh && ssh-keygen
+  352  cd ..
+  353  cd CS131
+  354  cd Assignment1
+  355  git add
+  356  git add .
+  357  git commit -m "tp"
+  358  git remote add origin https://github.com/diyadoshi661/CS131.git
+  359  git push -u origin main
+  360  cdCS131
+  361  cd CS131
+  362  git init
+  363  git add .
+  364  git commit -m "myfirst commit"
+  365  git push origin main
+  366  ls
+  367  cd Assignment1
+  368  ls
+  369  cd myDir2
+  370  ls
+  371  cd myDir3
+  372  cd ..
+  373  myDir3
+  374  ls myDir3
+  375  cd myDir3
+  376  ls
+  377  cd Assignment1
+  378  cd ..
+  379  ls
+  380  cd myDir
+  381  ls
+  382  cd ..
+  383  rm myDir2
+  384  rmdir myDir2
+  385  git rm -r myDir2
+  386  git commit -m "Remove files from directory"
+  387  git rm -r --cached myDir2
+  388  git commit -m "Remove directory"
+  389  rm -rf myDir2
+  390  git push origin main
+  391  mkdir myDir2
+  392  mkdir myDir3
+  393  rmdir myDir3
+  394  l
+  395  ls
+  396  mkdir myDir3
+  397  ls
+  398  touch myDir2/myFile.txt
+  399  mv myDir2/myFile.txt myDir3/
+  400  id -h
+  401  free -h
+  402  free -m
+  403  vi Assignment1.txt
+  404  history >> cmds.log
+  405  vi cmds.log
+  406  vi Assignment1.txt
+  407  gcd ..
+  408  cd ..
+  409  git add Assignment1
+  410  git commit -m "committing changes"
+  411  git push origin main
+  412  chgrp CS131
+  413  cd CS131
+  414  ls
+  415  chgrp echofile.txt
+  416  chgrp user echofile.txt
+  417  group
+  418  get/etc/group
+  419  cat /etc/group
+  420  chgrp diyasp24 echofile.txt
+  421  ls -ltr
+  422  chown echofile.txt
+  423  chgrp hardiksp24 echofile.txt
+  424  chmod 444 hello.txt
+  425  chmod 444 echofile.txt
+  426  ls -ltr 
+  427  chmod 666 echofile.txt
+  428  ls -ltr
+  429  cd *.txt
+  430  *.bashrc
+  431  ls *.txt
+  432  ls -a *.txt
+  433  ls
+  434  cd CS131
+  435  ls *.txt
+  436  ..bashrc
+  437  [a].txt
+  438  [u].txt
+  439  ls '[a].txt'
+  440  [aaaaaaaa].txt
+  441  ls [........].txt
+  442  find -name "files"
+  443  find -name "cs131"
+  444  find . -type f -name "CS131"
+  445  find -name "*.txt"
+  446  find -size 0
+  447  find -type d-empty
+  448  find -type d -empty
+  449  find -type d *
+  450  find -type d
+  451  clear
+  452  crontab 0 0 0 28 2
+  453  man crontab
+  454  ls
+  455  crontab echofile.txt
+  456  cd UNSORTED.txt
+  457  ps aux
+  458  clear
+  459  ps aux head
+  460  ps aux |head
+  461  cd CS131
+  462  ls
+  463  cd spotify-2023.csv
+  464  cat spotify-2023.csv | head
+  465  ps aux |grep 'Bad Bunny'
+  466  ps aux |grep 2714366
+  467  ps aux | grep systemd
+  468  ps aux | grep diya
+  469  ps -ax
+  470  ps -ax| head
+  471  echo $?
+  472  >top
+  473  > top
+  474  echo $SHELL
+  475  exec bash
+  476  cd..
+  477  exec diyasp24
+  478  exit
+  479  cat > /dev/tty
+  480  cat < /dev/tty
+  481  cat /dev/tty
+  482  cd CS131
+  483  ls
+  484  nano spotify-2023.csv
+  485  wc spotify-2023.csv
+  486  cd CS131
+  487  grep -i taylor spotify-2023.csv
+  488  grep -in taylor spotify-2023.csv
+  489  egrep Taylor spotify-2023.csv
+  490  fgrep 'The Great War' spotify-2023.csv
+  491  fgrep -i 'the great war' spotify-2023.csv
+  492  grep ?aylor spotify-2023.csv
+  493  egrep ^aylor spotify-2023.csv
+  494  grep bob /etc/passwd
+  495  cut -d"," spotify-2023.csv
+  496  cut -c1,2 -d"," spotify-2023.csv
+  497  man cut
+  498  cut -d "," spotify-2023.csv
+  499  echo SHELL
+  500  echo `SHELL`
+  501  echo $SHELL
+  502  sudo cat /etc/shadow/
+  503  ls *.txt
+  504  cd Worksheet1
+  505  ls
+  506  cd Worksheet2
+  507  cd ..
+  508  cd Worksheet2
+  509  ls
+  510  cd ..
+  511  cs Assignment1
+  512  cd Assignment1
+  513  ls
+  514  ls myDir?
+  515  sudo cat /etc/passwd
+  516  cat /etc/passwd
+  517  cat /etc/shadow
+  518  cd ..
+  519  stat CS131
+  520  stat Worksheet1
+  521  ls -i Worksheet1
+  522  cd Worksheet1
+  523  stat cmds.log
+  524  cd ..
+  525  grep ./Assignment1 *.txt
+  526  sort spotify-2023.csv | head
+  527  pwd
+  528  echo $USERNAME
+  529  echo $PATH
+  530  echo $USER
+  531  exec $USER
+  532  ls
+  533  cd top
+  534  cat top
+  535  cat echofile.txt
+  536  cat unsorted.txt
+  537  sort unsorted.txt
+  538  "Line6" >> unsorted.txt
+  539  cat "Line6" >> unsorted.txt
+  540  exit
+  541  cd CS131
+  542  echo "hello" > unsorted.txt
+  543  cat unsorted.txt
+  544  echo "hi" | unsorted.txt
+  545  unsorted.txt | echo "hi"
+  546  cat unsorted.txt
+  547  ls
+  548  cd CS131
+  549  mkdir Assignment2
+  550  cd Assignment2
+  551  touch Assignment2.txt
+  552  ls
+  553  touch cmds.log
+  554  ls
+----------------------------------------------------------------Assignment 2------------------------------------------------------------------
+  555  find /etc -type f >one.txt 2>two.txt                               --------Question 1
+  556  ls
+  557  vi Assignment2.txt
+  558  cat one.txt
+  559  vi Assignment2.txt
+  560  cat two.txt
+  561  vi Assignment2.txt
+  562  cmds.log >> history
+  563  history >> cmds.log
+    1  ls
+    2  mkdir newfolder
+    3  ls
+    4  rmdir newfolder/
+    5  ls
+    6  exit
+    7  passwd
+    8  mkdir CS131
+    9  man
+   10  1
+   11  LS
+   12  pwd
+   13  man ls
+   14  ls
+   15  wget www.github.com
+   16  history
+   17  cd CS131
+   18  pwd
+   19  cd ..
+   20  pwd
+   21  pwd
+   22  echo $SHELL
+   23  mkdir files
+   24  ls
+   25  % cd files
+   26  pwd
+   27  wget www.github.com
+   28  cd demo
+   29  getwd
+   30  ls -ltr
+   31  cat CS131
+   32  cd CS131
+   33  man more
+   34  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/spotify-2023.csv
+   35  ls -ltr
+   36  tail -15
+   37  ls
+   38  cat CS131
+   39  cd CS131
+   40  LS
+   41  ls
+   42  cd spotify-2023.csv
+   43  cat spotify-2023.csv
+   44  tail -spotify-2023.csv
+   45  tail - spotify-2023.csv
+   46  ls
+   47  CS131
+   48  cd CS131
+   49  cat spotify-2023.csv
+   50  tail -f
+   51  nano spotify-2023.csv
+   52  vi spotify-2023.csv
+   53  wget www.github.com
+   54  cd ~/Desktop
+   55  cd CS131
+   56  git init
+   57  touch newfile.txt
+   58  ls
+   59  's/newfile/Worksheet1'newfile.txt
+   60  touch Worksheet1.txt
+   61  ls
+   62  rm newfile.txt
+   63  ls
+   64  rm Worksheet1.txt
+   65  git status
+   66  git commit -m "This is my first commit!"
+   67  ls
+   68  cd CS131
+   69  ls
+   70  vi unsorted.txt
+   71  sort unsorted.txt
+   72  cat unsorted.txt
+   73  echo "Hello"
+   74  echo "Hello"> echofile.txt
+   75  cat echofile.txt
+   76  ?wc
+   77  wc unsorted.txt
+   78  wc -l unsorted.txt
+   79  wc -w unsorted.txt
+   80  ls
+   81  grep spotify-2023.csv
+   82  cd spotify-2023.csv
+   83  ls - spotify-2023.csv
+   84  cat spotify-2023.csv
+   85  ls
+   86  echo $HOME
+   87  PWD
+   88  pwd
+   89  echo $SHELL
+   90  grep "Taylor Swift" spotify-2023.csv >> taylor_drake_songs.csv
+   91  grep "Drake" spotify-2023.csv >> taylor_drake_songs.csv
+   92  wc -l taylor_drake_songs.csv
+   93  ls
+   94  echo "# CS131" >> README.md
+   95  git init
+   96  git add README.md
+   97  git commit -m "first commit"
+   98  git branch -M main
+   99  git remote add origin git@github.com:diyadoshi661/CS131.git
+  100  git push -u origin main
+  101  git status
+  102  git commit -m "first commit"
+  103  git config --global user.email "diyadoshi661@gmail.com"
+  104  git config --global user.name "diyadoshi661"
+  105  git commit -m "first commit"
+  106  git push -u origin main
+  107  git version
+  108  git user
+  109  clear
+  110  wget www.github.com
+  111  cd desktop
+  112  ls
+  113  git init
+  114  git status
+  115  git add .
+  116  git add
+  117  git add .
+  118  git commit -m "check"
+  119  git add index.html
+  120  git commit -m "check"
+  121  git remote add origin git@github.com:diyadoshi661/CS131.git
+  122  git branch -M main
+  123  git push -u origin main
+  124  cd ~/.ssh && ssh-keygen
+  125  git user.name
+  126  git config --global user.name "diyadoshi661"
+  127  git config --global user.email "diyadoshi661@gmail.com"
+  128  ssh-add ~/.ssh/id_rsa
+  129  eval $(ssh-agent -s)
+  130  ssh-add ~/.ssh/id_rsa
+  131  ssh -vT git@gitlab.com
+  132  cls
+  133  clear
+  134  git push -u origin main
+  135  git remote add origin git@github.com:diyadoshi661/CS131.git
+  136  git status
+  137  git pull
+  138  git origin
+  139  cls
+  140  clear
+  141  ls
+  142  cd ..
+  143  ls
+  144  cd CS131
+  145  ls
+  146  cd ..
+  147  clear
+  148  git config --get remote.origin.url
+  149  git add .
+  150  lsa
+  151  ls
+  152  cd CS131
+  153  ls
+  154  git init
+  155  git add README.md
+  156  git remote add origin https://github.com/diyadoshi661/CS131.git
+  157  git branch -M main
+  158  git push -u origin main
+  159  ls
+  160  git status
+  161  git add .
+  162  git commit -m "check"
+  163  git push -u origin main
+  164  cls
+  165  clear
+  166  history > cmds.log
+  167  cat cmds.log
+  168  vi cmds.log
+  169  clear
+  170  git add cmds.log
+  171  git commit -m "History"
+  172  git push
+  173  mkdir Worksheet1
+  174  clear
+  175  ls
+  176  mv cmds.log Worksheet1/
+  177  clear
+  178  git add .
+  179  git commit -m "Update"
+  180  git push
+  181  echo shell
+  182  echo $shell
+  183  echo $SHELL
+  184  python3
+  185  print("hello")
+  186  java
+  187  whereis java
+  188  ls -latr
+  189  man -latr
+  190  man ls - latr
+  191  cat .bashrc
+  192  cat .bashprofile
+  193  vi bashprofile
+  194  cat .bashrc
+  195  vi .bashrc
+  196  source .bashrc
+  197  echo "pwd"
+  198  echo $USER
+  199  /ROOT
+  200  /root
+  201  /etc/passwd
+  202  /etc/shadow
+  203  cat /etc/passwd
+  204  grep maysp24 /etc/passwd
+  205  cat /etc/shadow
+  206  cat /etc/group
+  207  cd demo
+  208  pwd
+  209  ls -ltr
+  210  sudo nano /etc/passwd
+  211  sudo diyasp24 command
+  212  pwd
+  213  su maysp24
+  214  cat /mnt/scratch/FA23_CS131_Ashish/ashish/a.txt
+  215  la
+  216  ls
+  217  ls -l
+  218  crontab
+  219  crontab -l
+  220  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  221  grep -i "United States" Global YouTube Statistics.csv
+  222  ls
+  223  cd 'Global YouTube Statistics.csv'
+  224  grep "United States" "Global YouTube Statistics.csv"
+  225  grep "Music" "Global YouTube Statistics.csv"
+  226  grep -c "Music" "Global YouTube Statistics.csv"
+  227  vi
+  228  vi "Global YouTube Statistics.csv"
+  229  grep "Music" "Global YouTube Statistics.csv" | wc
+  230  grep "Music" "Global YouTube Statistics.csv" | wc > counts.txt
+  231  vi counts.txt
+  232  history > cmds.log
+  233  ls
+  234  cd CS131
+  235  ls
+  236  mkdir Worksheet2
+  237  git add counts.txt cmds.log
+  238  git commit -m "Add counts.txt and cmds.log"
+  239  git push origin master
+  240  ls
+  241  LS
+  242  ls
+  243  vi counts.txt
+  244  cd CS131
+  245  mv counts.txt cmds.log Worksheet2/
+  246  cd counts.txt
+  247  cd ..
+  248  mv counts.txt cmds.log Worksheet2/
+  249  mv counts.txt cmds.log CS131/
+  250  ls
+  251  cd CS131
+  252  ls
+  253  mv counts.txt cmds.log Worksheet2/
+  254  ls
+  255  git add Worksheet2/counts.txt
+  256  git add Worksheet2/cmds.log
+  257  git commit -m "Add counts.txt and cmds.log for Worksheet2"
+  258  git push origin main
+  259  cd CS131
+  260  mkdir Assignment1
+  261  cd Assignment1
+  262  ls
+  263  cd .. 
+  264  ls
+  265  clear
+  266  cd Assignment1
+  267  echo $SHELL
+  268  history > cmds.log
+  269  ls
+  270  vi cmds.log
+  271  cd cmds.log
+  272  echo $HOME
+  273  id
+  274  mkdir myDir
+  275  cd myDir
+  276  ls -l
+  277  ls-1
+  278  cd ..
+  279  ls -l
+  280  chmod u-w myDir
+  281  ls -1
+  282  ls-l
+  283  ls -l
+  284  cd myDir
+  285  ls
+  286  ls -l
+  287  touch myfile.txt
+  288  cd..
+  289  cd ..
+  290  mkdir myDir2
+  291  mkdir myDir3
+  292  cd myDir2
+  293  touch myFile.txt
+  294  mv myFile.txt myDir3
+  295  man free
+  296  free
+  297  cat /etc/os-release
+  298  cmds.log < history
+  299  cd ..
+  300  history >> cmds.log
+  301  vi cmds.log
+  302  cd CS131
+  303  ls
+  304  cd Assignment1
+  305  ls
+  306  touch Assignment1.txt
+  307  vi Assignment1.txt
+  308  vi cmds.log
+  309  echo $SHELL
+  310  vi Assignment1.txt
+  311  echo $HOME
+  312  vi Assignment1.txt
+  313  id
+  314  vi Assignment1.txt
+  315  cd myDir
+  316  ls
+  317  ls -l
+  318  touch first.txt
+  319  vi Assignment1.txt
+  320  cd..
+  321  cd ..
+  322  vi Assignment1.txt
+  323  free
+  324  vi Assignment1.txt
+  325  cat /etc/os-release
+  326  vi Assignment1.txt
+  327  ls -l /etc/os-release
+  328  vi Assignment1.txt
+  329  history >> cmds.log
+  330  vi cmds.log
+  331  history
+  332  history >> cmds.log
+  333  cat cmds.log
+  334  vi cmds.log
+  335  history | grep "touch Assignment1.txt"
+  336  history | grep " ls -l /etc/os-release"
+  337  vi cmds.log
+  338  vi Assignment1.txt
+  339  git status
+  340  git add .
+  341  git commit -m "Assignment1 commit"
+  342  git push origin master
+  343  git branch
+  344  cd ..
+  345  git add Assignment1
+  346  git commit -m "assignment1"
+  347  git push origin main
+  348  git remote add origin git@github.com:diyadoshi661/CS131.git
+  349  git commit -m "Message"
+  350  git push --set-upstream origin master
+  351  cd ~/.ssh && ssh-keygen
+  352  cd ..
+  353  cd CS131
+  354  cd Assignment1
+  355  git add
+  356  git add .
+  357  git commit -m "tp"
+  358  git remote add origin https://github.com/diyadoshi661/CS131.git
+  359  git push -u origin main
+  360  cdCS131
+  361  cd CS131
+  362  git init
+  363  git add .
+  364  git commit -m "myfirst commit"
+  365  git push origin main
+  366  ls
+  367  cd Assignment1
+  368  ls
+  369  cd myDir2
+  370  ls
+  371  cd myDir3
+  372  cd ..
+  373  myDir3
+  374  ls myDir3
+  375  cd myDir3
+  376  ls
+  377  cd Assignment1
+  378  cd ..
+  379  ls
+  380  cd myDir
+  381  ls
+  382  cd ..
+  383  rm myDir2
+  384  rmdir myDir2
+  385  git rm -r myDir2
+  386  git commit -m "Remove files from directory"
+  387  git rm -r --cached myDir2
+  388  git commit -m "Remove directory"
+  389  rm -rf myDir2
+  390  git push origin main
+  391  mkdir myDir2
+  392  mkdir myDir3
+  393  rmdir myDir3
+  394  l
+  395  ls
+  396  mkdir myDir3
+  397  ls
+  398  touch myDir2/myFile.txt
+  399  mv myDir2/myFile.txt myDir3/
+  400  id -h
+  401  free -h
+  402  free -m
+  403  vi Assignment1.txt
+  404  history >> cmds.log
+  405  vi cmds.log
+  406  vi Assignment1.txt
+  407  gcd ..
+  408  cd ..
+  409  git add Assignment1
+  410  git commit -m "committing changes"
+  411  git push origin main
+  412  chgrp CS131
+  413  cd CS131
+  414  ls
+  415  chgrp echofile.txt
+  416  chgrp user echofile.txt
+  417  group
+  418  get/etc/group
+  419  cat /etc/group
+  420  chgrp diyasp24 echofile.txt
+  421  ls -ltr
+  422  chown echofile.txt
+  423  chgrp hardiksp24 echofile.txt
+  424  chmod 444 hello.txt
+  425  chmod 444 echofile.txt
+  426  ls -ltr 
+  427  chmod 666 echofile.txt
+  428  ls -ltr
+  429  cd *.txt
+  430  *.bashrc
+  431  ls *.txt
+  432  ls -a *.txt
+  433  ls
+  434  cd CS131
+  435  ls *.txt
+  436  ..bashrc
+  437  [a].txt
+  438  [u].txt
+  439  ls '[a].txt'
+  440  [aaaaaaaa].txt
+  441  ls [........].txt
+  442  find -name "files"
+  443  find -name "cs131"
+  444  find . -type f -name "CS131"
+  445  find -name "*.txt"
+  446  find -size 0
+  447  find -type d-empty
+  448  find -type d -empty
+  449  find -type d *
+  450  find -type d
+  451  clear
+  452  crontab 0 0 0 28 2
+  453  man crontab
+  454  ls
+  455  crontab echofile.txt
+  456  cd UNSORTED.txt
+  457  ps aux
+  458  clear
+  459  ps aux head
+  460  ps aux |head
+  461  cd CS131
+  462  ls
+  463  cd spotify-2023.csv
+  464  cat spotify-2023.csv | head
+  465  ps aux |grep 'Bad Bunny'
+  466  ps aux |grep 2714366
+  467  ps aux | grep systemd
+  468  ps aux | grep diya
+  469  ps -ax
+  470  ps -ax| head
+  471  echo $?
+  472  >top
+  473  > top
+  474  echo $SHELL
+  475  exec bash
+  476  cd..
+  477  exec diyasp24
+  478  exit
+  479  cat > /dev/tty
+  480  cat < /dev/tty
+  481  cat /dev/tty
+  482  cd CS131
+  483  ls
+  484  nano spotify-2023.csv
+  485  wc spotify-2023.csv
+  486  cd CS131
+  487  grep -i taylor spotify-2023.csv
+  488  grep -in taylor spotify-2023.csv
+  489  egrep Taylor spotify-2023.csv
+  490  fgrep 'The Great War' spotify-2023.csv
+  491  fgrep -i 'the great war' spotify-2023.csv
+  492  grep ?aylor spotify-2023.csv
+  493  egrep ^aylor spotify-2023.csv
+  494  grep bob /etc/passwd
+  495  cut -d"," spotify-2023.csv
+  496  cut -c1,2 -d"," spotify-2023.csv
+  497  man cut
+  498  cut -d "," spotify-2023.csv
+  499  echo SHELL
+  500  echo `SHELL`
+  501  echo $SHELL
+  502  sudo cat /etc/shadow/
+  503  ls *.txt
+  504  cd Worksheet1
+  505  ls
+  506  cd Worksheet2
+  507  cd ..
+  508  cd Worksheet2
+  509  ls
+  510  cd ..
+  511  cs Assignment1
+  512  cd Assignment1
+  513  ls
+  514  ls myDir?
+  515  sudo cat /etc/passwd
+  516  cat /etc/passwd
+  517  cat /etc/shadow
+  518  cd ..
+  519  stat CS131
+  520  stat Worksheet1
+  521  ls -i Worksheet1
+  522  cd Worksheet1
+  523  stat cmds.log
+  524  cd ..
+  525  grep ./Assignment1 *.txt
+  526  sort spotify-2023.csv | head
+  527  pwd
+  528  echo $USERNAME
+  529  echo $PATH
+  530  echo $USER
+  531  exec $USER
+  532  ls
+  533  cd top
+  534  cat top
+  535  cat echofile.txt
+  536  cat unsorted.txt
+  537  sort unsorted.txt
+  538  "Line6" >> unsorted.txt
+  539  cat "Line6" >> unsorted.txt
+  540  exit
+  541  cd CS131
+  542  echo "hello" > unsorted.txt
+  543  cat unsorted.txt
+  544  echo "hi" | unsorted.txt
+  545  unsorted.txt | echo "hi"
+  546  cat unsorted.txt
+  547  ls
+  548  cd CS131
+  549  mkdir Assignment2
+  550  cd Assignment2
+  551  touch Assignment2.txt
+  552  ls
+  553  touch cmds.log
+  554  ls
+  555  find /etc -type f >one.txt 2>two.txt
+  556  ls
+  557  vi Assignment2.txt
+  558  cat one.txt
+  559  vi Assignment2.txt
+  560  cat two.txt
+  561  vi Assignment2.txt
+  562  cmds.log >> history
+  563  history >> cmds.log
+  564  vi cmds.log
+  565  cd CS131
+  566  ls
+  567  cd Worksheet2
+  568  ls
+  569  cat counts.txt
+  570  cd..
+  571  cd ..
+  572  cd Assignment2
+  573  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  574  ls
+  575  head 'Global YouTube Statistics.csv'
+  576  cut -d ',' -f22,23 "Global YouTube Statistics.csv" | tail -n +2 | sort | uniq -c | sort -nr | head -n 3
+  577  cut -d ',' -f21,22 "Global YouTube Statistics.csv" | tail -n +2 | sort | uniq -c | sort -nr | head -n 3
+  578  cut -d',' -f 20,21 "Global YouTube Statistics.csv >storing.txt
+sort -n -r -k1 storing.txt > try.txt
+uniq -c try.txt
+uniq -c try.txt >storing.txt
+sort -r -n -k1 storing.txt > try.txt
+cat test.txt > yearMonth.txt
+cat try.txt > storing.txt
+cat storing.txt
+vi storing.txt
+  579  cut -d','-f17,18 dataset.csv | sort | uniq -c | sort -nr | head -n 3
+  580  cut -d',' -f17,18 dataset.csv | sort | uniq -c | sort -nr | head -n 3
+  581  cut -d',' -f17,18 Global Youtube Statistics.csv | sort | uniq -c | sort -nr | head -n 3
+  582  cut -d',' -f17,18 "Global Youtube Statistics.csv" | sort | uniq -c | sort -nr | head -n 3
+  583  ls
+  584  cut -d',' -f17,18 "Global YouTube Statistics.csv" | sort | uniq -c | sort -nr | head -n 3
+  585  cut -d',' -f20,21 "Global YouTube Statistics.csv" | sort | uniq -c | sort -nr | head -n 3
+  586  vi Assignment2.txt
+  587  ps -u diyasp24
+  588  vi Assignment2.txt
+  589  vi file.txt
+  590  ps -eo pid,cmd | grep -E '\b(systemd|init)\b'
+  591  ps --pid=1 -o cmd,comm
+  592  vi Assignment2.txt
+  593  history >> cmds.log
