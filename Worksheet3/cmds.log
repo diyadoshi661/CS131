@@ -1,0 +1,17 @@
+cd CS131
+mkdir Worksheet3 
+cd Worksheet3
+wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+cut -d',' -f 2,8,16 'Global YouTube Statistics.csv' | grep '^[^,]*,United States,*' | sort -k 3 -nr -t',' | head -1 > us_max.txt
+cat us_max.txt >> ws3.txt
+cut -d',' -f 2,8,16 'Global YouTube Statistics.csv' | grep '^[^,]*,United Kingdom,*' | sort -k 3 -nr -t',' | head -1 > uk_max.txt
+cat uk_max.txt >> ws3.txt
+cut -d',' -f 2,8,16 'Global YouTube Statistics.csv' | grep '^[^,]*,India,*' | sort -k 3 -nr -t',' | head -1 > in_max.csv
+cat in_max.txt >> ws3.txt
+
+
+
+2)  cut -d',' -f 2,3,5 'Global YouTube Statistics.csv' | grep '^[^,]*,[^,]*,Sports,*' | sort -k 2 -nr -t',' | head -1 >>  ws3.txt
+cut -d',' -f 2,3,5 'Global YouTube Statistics.csv' | grep '^[^,]*,[^,]*,Education,*' | sort -k 2 -nr -t',' | head -1 >>  ws3.txt
+cut -d',' -f 2,3,5 'Global YouTube Statistics.csv' | grep '^[^,]*,[^,]*,Entertainment,*' | sort -k 2 -nr -t',' | head -1 >>  ws3.txt
+vi ws3.txt
