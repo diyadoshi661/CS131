@@ -1,0 +1,9 @@
+-l last.fake
+grep 'sp24' last.fake > lastsp24.fake
+wc -l lastsp24.fake
+awk '/Sun/ {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {print "The list of people who worked on Sunday are:"} {print} END {print "Kudos to these people for putting in the work"}'
+awk '$4 >= "23:00" || $4 <= "04:00" {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {print "Night Owls List:"} {print} END {print "Night Owls are dope. Please ensure you get enough sleep though."}'
+awk -F ":" '{ print $1 }' lastsp24.fake | awk '{ if ($NF >= 5 && $NF <= 9) print $1 }' | sort | uniq | awk 'BEGIN { print "Early Birds List:" } { print } END { print "Early Birds are dope. Please ensure you get enough sleep though." }'
+awk '/^t/ {print $1}' lastsp24.fake | sort | uniq
+awk -F: '$1 ~ /^a/ && $3 % 2 == 0 {print $1}' passwd.fake | sort | uniq
+sed 's/[a-zA-Z0-9 ]//g' passwd.fake | sort -u
