@@ -1,4 +1,3 @@
-0 total
 73 United States/Music.txt
 22 United States/Comedy.txt
 68 United States/Entertainment.txt
