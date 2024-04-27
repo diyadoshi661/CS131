@@ -1,5 +1,5 @@
 
-script.sh
+vi script.sh
 bash script.sh
 wc -l United\ States/Music.txt >> ws5.txt
 wc -l United\ States/Comedy.txt >>ws5.txt
